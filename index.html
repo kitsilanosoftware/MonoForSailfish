@@ -2,13 +2,13 @@
 <html>
 
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Mono For Sailfish : A Mono development environment for Sailfish">
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Mono for Sailfish : A .NET development environment for Sailfish." />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Mono For Sailfish</title>
+    <title>MonoTizen</title>
   </head>
 
   <body>
@@ -16,59 +16,124 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/kitsilanosoftware/MonoForSailfish">View on GitHub</a>
-
-          <h1 id="project_title">Mono For Sailfish</h1>
-          <h2 id="project_tagline">A Mono development environment for Sailfish</h2>
+          <a id="forkme_banner" href="https://github.com/kitsilanosoftware/mono">Fork me on GitHub</a>
+          <h1 id="project_title">Mono for Sailfish</h1>
+          <h2 id="project_tagline">A .NET development environment for Sailfish.</h2>
 
             <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/kitsilanosoftware/MonoForSailfish/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/kitsilanosoftware/MonoForSailfish/tarball/master">Download this project as a tar.gz file</a>
+              <a class="zip_download_link" href="https://github.com/kitsilanosoftware/mono/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/kitsilanosoftware/mono/tarball/master">Download this project as a tar.gz file</a>
             </section>
+            
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+
+<p>
+<a href="http://monotizen.com"><img align="center" src="http://monotizen.files.wordpress.com/2014/07/256t.png?w=300" alt="256t" width="300" height="115" /></a>
+</p>
+
         <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+            <a href="#what-is-mono"><span class="octicon octicon-link"></span></a>
+            What is Mono?
+        </h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+        <p>
+            <a href="http://mono-project.com/Start">Mono</a>
+            is an open source, cross-platform implementation of
+            <a href="http://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29">C#</a>
+            and the
+            <a href="http://en.wikipedia.org/wiki/Common_Language_Runtime">CLR</a>
+            that is binary compatible with
+            <a href="http://en.wikipedia.org/wiki/.NET_Framework">Microsoft.NET</a>
+        </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+        <h3>
+            <a href="#what-is-sailfish"><span class="octicon octicon-link"></span></a>
+            What is Sailfish?
+        </h3>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+        <p>
+            <a href="http://tizen.org/about">Tizen</a>
+            is an open source, standards-based software platform supported by
+            <a href="https://www.tizenassociation.org/members/">leading mobile operators, device manufacturers, and silicon suppliers</a>
+            for multiple device categories such as smartphones, tablets, netbooks,
+            in-vehicle infotainment devices, and smart TVs.</p>
+        </p>
+        
+        <p>
+          <strong>
+            <a href="http://kitsilanosoftware.wordpress.com/2014/08/13/the-tizen-project-is-broken-we-will-be-spending-some-time-apart-3/">SEE:  The Tizen Project is broken and we will be spending some time apart</a>.
+          </strong>
+        </p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+        <h3>
+            <a href="#what-is-monoforsailfish"><span class="octicon octicon-link"></span></a>
+            What is Mono for Sailfish?
+        </h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+        <p>
+            MonoTizen is a port of <a href="http://mono-project.com/Start">Mono</a> to <a href="http://tizen.org">Tizen</a>,
+            including an IDE integration for <a href="http://monodevelop.com">MonoDevelop</a>.
+        </p>
+        
+        <h3>
+            <a name="how-do-i-use" class="anchor" href="#how-do-i-use">
+                <span class="octicon octicon-link"></span>
+            </a>
+            How do I use MonoTizen?
+        </h3>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+        <p>
+            <ul>
+                <li>Install the <a href="http://kitsilanosoftware.github.io/MonoDevelop.Tizen/">MonoDevelop.Tizen</a> add-in.</li>
+                <li>Install <a href="installation.html">Mono-3.6.0 RPMs</a> on a Tizen device</i></li>
+            </ul>
+        </p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+        <h3>
+            <a name="tizen-devices" class="anchor" href="#tizen-devices">
+                <span class="octicon octicon-link"></span>
+            </a>
+            What Tizen devices are available or coming soon?
+        </h3>
+
+        <p>
+            <ul>
+                <li><a href="http://www.samsung.com/global/nx/nx2000/index.html">Samsung Samsung Smart Camera NX2000</a> - released May 2013</li>
+                <li><a href="http://www.tizenexperts.com/2014/06/ash-flashing-tizen-intel-nuc/">Intel NUC</a> - released January 2014</li>
+                <li><a href="http://www.samsung.com/global/microsite/gear/gear2_features.html">Samsung Gear 2 Smartwatch</a> - released April 2014</li>
+                <li><a href="https://www.youtube.com/watch?v=HZClYjAxP6Y">Tizen IVI Proof of Concept (Land Rover)</a> - Tizen IVI SDK - 3.0 Alpha 2 <a href="https://wiki.tizen.org/wiki/Tizen_IVI_SDK">released April 2014</a></li>
+                <li><a href="http://www.tizenexperts.com/2014/05/video-of-the-tizen-samsung-ww9000-touchscreen-washing-machine/">Samsung WW9000 Touchscreen Washing Machine</a> - Released May 2014</li>
+                <li><a href="http://www.engadget.com/2014/06/04/samsung-tizen-tv/">Samsung Tizen TV</a> - SDK 1.0 Beta <a href="http://www.tizenexperts.com/2014/07/samsung-release-their-tizen-based-sdk-1-0-beta/">released July 2014</a></li>
+                <li><a href="http://www.tizenexperts.com/2014/07/tizen-running-on-an-android-tablet-allwinner/">Booting Tizen onto a Android Tablet</a> - Demo'ed July 2014</li>
+                <li><a href="http://www.engadget.com/2014/06/04/samsung-z/">Samsung Z smartphone</a> - release in Russia scheduled for Q3 2014</li>
+                <li>There is a <a href="https://wiki.tizen.org/wiki/Devices">more complete list of devices</a> on the Tizen Wiki</li>
+            </ul>
+        </p>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>
+<ul>
+  <li><a href="http://www.mono-project.com/" class="user-mention">The Mono Project</a> sponsored by <a href="http://www.xamarin.com">Xamarin</a>.</li>
+  <li><a href="http://bobsummerwill.wordpress.com/about/" class="user-mention">Bob Summerwill</a> of <a href="http://kitsilanosoftware.wordpress.com/about">Kitsilano Software</a> and <a href="http://kitsilanogames.wordpress.com/about">Kitsilano Games</a>.</li>
+  <li><a href="https://github.com/ddobrev" class="user-mention">Dimitar Dobrev</a>.</li>
+</ul>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+</p>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Mono For Sailfish maintained by <a href="https://github.com/kitsilanosoftware">kitsilanosoftware</a></p>
+        <p class="copyright">MonoTizen maintained by <a href="https://github.com/kitsilanosoftware">Kitsilano Software</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
